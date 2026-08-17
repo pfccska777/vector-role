@@ -1,6 +1,5 @@
 ---
 # tasks file for vector-role
----
 - name: Create Vector installation directory
   ansible.builtin.file:
     path: "{{ vector_install_dir }}"
